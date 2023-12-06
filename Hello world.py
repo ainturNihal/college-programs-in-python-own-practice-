@@ -1,2 +1,4 @@
-greet = "Hello World!"
-print(greet)
+import random
+greet = "Hello"
+w = "World!"
+print(greet,world)
