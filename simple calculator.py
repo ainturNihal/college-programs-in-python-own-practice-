@@ -5,13 +5,17 @@ y = (input("Add +,-,*,/: "))
 z = float(input("Enter a number for y: "))
 if y == "+":
   time.sleep(1)
-  print(round(x+z))
+  a = x + z
+  print(f"{a:.2f}")
 if y == "-":
   time.sleep(1)
-  print(round(x-z))
+  b = x - z
+  print(f"{b:.2f}")
 if y == "*":
   time.sleep(1)
-  print(round(x*z))
+  c = x*z
+  print(f"{c:.2f}")
 if y == "/":
   time.sleep(1)
-  print(round(x/z))
+  d = x/z
+  print(f"{d:.2f}")
